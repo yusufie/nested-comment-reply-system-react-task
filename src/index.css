@@ -1,0 +1,137 @@
+div.comments {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-container {
+  margin-top: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
+
+.comment-form-title {
+  font-size: 22px;
+}
+
+.comment-form-textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 2px rgb(25, 137, 0);
+  box-shadow: 1px 1px 2px white, 0 0 25px greenyellow, 0 0 25px green;
+}
+
+.comment-form-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background: green;
+  border-radius: 8px;
+  color: white;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(0, 158, 39);
+}
+
+.comment-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.comment-form-cancel-button {
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(210, 210, 210);
+  border: 2px rgb(25, 137, 0);
+  box-shadow: 1px 1px 2px white, 0 0 1rem greenyellow, 0 0 1rem green;
+}
+
+.comment-image-container {
+  margin-right: 12px;
+}
+
+.comment-image-container img {
+  border-radius: 50px;
+}
+
+.comment-right-part {
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(59, 130, 246);
+}
+
+.comment-text {
+  font-size: 1rem;
+}
+
+.comment-actions {
+  display: flex;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.comment-action {
+  margin-right: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("/public/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.95;
+  font-size: 1.5rem;
+}
+
+.comments-title {
+  color: green;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: aliceblue;
+}
